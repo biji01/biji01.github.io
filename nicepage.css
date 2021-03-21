@@ -32906,6 +32906,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
+  font-weight: 400;
 }
 
 .u-header .u-social-icons-1 {
@@ -33023,8 +33024,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    width: auto;
-    height: auto;
+    width: 64px;
   }
 
   .u-header .u-menu-1 {
@@ -33143,8 +33143,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-image-1 {
     margin-top: 43px;
     margin-right: 241px;
-    width: auto;
-    height: auto;
   }
 
   .u-footer .u-social-icons-1 {
