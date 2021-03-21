@@ -20,7 +20,6 @@
   grid-gap: 22px 22px;
   margin-top: 60px;
   margin-bottom: 60px;
-  height: auto;
 }
 
 .u-section-1 .u-repeater-1 {
@@ -133,6 +132,7 @@
 
   .u-section-1 .u-blog-1 {
     min-height: 380px;
+    height: auto;
   }
 
   .u-section-1 .u-image-1 {
