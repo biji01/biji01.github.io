@@ -9,14 +9,17 @@
 }
 
 .u-section-1 .u-text-2 {
-  width: 839px;
-  margin: 6px auto 21px;
+  margin: 6px 0 21px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
     margin-left: 133px;
     margin-right: 133px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 839px;
   }
 }
 
