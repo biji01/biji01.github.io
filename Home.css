@@ -1,7 +1,3 @@
- .u-section-1 {
-  background-image: linear-gradient(#fef9e6, #eafdfc);
-}
-
 .u-section-1 .u-sheet-1 {
   min-height: 806px;
 }
@@ -832,7 +828,6 @@
   grid-template-columns: 25% 25% 25% 25%;
   grid-gap: 0px 0px;
   min-height: 323px;
-  grid-auto-columns: 25%;
 }
 
 .u-section-3 .u-list-item-1 {
@@ -1039,7 +1034,6 @@
 
   .u-section-3 .u-repeater-1 {
     min-height: 266px;
-    grid-template-columns: repeat(4, 25%);
   }
 
   .u-section-3 .u-list-item-1 {
@@ -1186,8 +1180,7 @@
 
   .u-section-3 .u-repeater-1 {
     min-height: 815px;
-    grid-template-columns: repeat(2, 50%);
-    grid-auto-columns: 50%;
+    grid-template-columns: 50% 50%;
   }
 }
 
@@ -1198,7 +1191,6 @@
 
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 
   .u-section-3 .u-container-layout-1 {
