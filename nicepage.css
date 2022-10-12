@@ -36777,11 +36777,11 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         font-size: 1.125rem;
-        font-weight: 300;
-        line-height: 1.6;
+        line-height: 1.8;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
         font-family: 'Titillium Web',sans-serif;
+        font-weight: 300;
         }
         .u-btn
         {
@@ -37097,7 +37097,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: none;
+  background-image: linear-gradient(#f5f7fa, white);
 }
 
 .u-header .u-sheet-1 {
