@@ -41,12 +41,11 @@ fetch('https://js.cexplorer.io/api-static/pool/pool1n2j7zmw69gf3weqp3wae234p3lyk
 .then(res => res.json())
 .then((res) => {
   const data = res.data;
-  getElement('name').innerHTML = data.name;
   getElement('roa_lifetime').innerHTML = data.roa_lifetime + '%';
-  getElement('roa_lifetime2').innerHTML = data.roa_lifetime + '%';
   getElement('blocks_lifetime').innerHTML = data.blocks_lifetime;
   getElement('tax_ratio').innerHTML = data.tax_ratio + '%';
   getElement('saturation').innerHTML = (Math.round((data.saturation * 100) * 100) / 100).toFixed(2) + '%';
+  getElement('roa_lifetime2').innerHTML = data.roa_lifetime + '%';
   // do the rest here
 });
 	
@@ -59,8 +58,8 @@ fetch('https://js.cexplorer.io/api-static/pool/pool1n2j7zmw69gf3weqp3wae234p3lyk
     }
 	
 </script></head>
-  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-sticky u-sticky-3c6e u-white u-header" id="sec-9dc0"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://free-york.com" class="u-image u-logo u-image-1" data-image-width="998" data-image-height="293" title="Home">
+  <body class="u-body u-xl-mode"><header class="u-border-2 u-border-white u-clearfix u-header u-sticky u-sticky-3c6e u-white u-header" id="sec-9dc0"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="../Home.html" data-page-id="479507305" class="u-image u-logo u-image-1" data-image-width="998" data-image-height="293" title="Home">
           <img src="../images/FYLogo.png" class="u-logo-image u-logo-image-1">
         </a>
         <a href="https://armada-alliance.com/delegation-widget?pool_id=9aa5e16dda2a131764018bbb9546a18fc9695a152e0f5dff2046e7b4&amp;blockfrost_project_id=ipfsp1E1bw95sweZvZceg4k7FpbK8k6c6weS" class="u-border-none u-btn u-btn-round u-button-style u-custom-font u-font-titillium-web u-gradient u-hover-palette-1-light-1 u-none u-radius-10 u-text-body-color u-btn-1" target="_blank"><span class="u-file-icon u-icon u-icon-1"><img src="../images/53458482.png" alt=""></span>&nbsp;Stake Now

@@ -53,12 +53,11 @@ fetch('https://js.cexplorer.io/api-static/pool/pool1n2j7zmw69gf3weqp3wae234p3lyk
 .then(res => res.json())
 .then((res) => {
   const data = res.data;
-  getElement('name').innerHTML = data.name;
   getElement('roa_lifetime').innerHTML = data.roa_lifetime + '%';
-  getElement('roa_lifetime2').innerHTML = data.roa_lifetime + '%';
   getElement('blocks_lifetime').innerHTML = data.blocks_lifetime;
   getElement('tax_ratio').innerHTML = data.tax_ratio + '%';
   getElement('saturation').innerHTML = (Math.round((data.saturation * 100) * 100) / 100).toFixed(2) + '%';
+  getElement('roa_lifetime2').innerHTML = data.roa_lifetime + '%';
   // do the rest here
 });
 	
@@ -71,8 +70,8 @@ fetch('https://js.cexplorer.io/api-static/pool/pool1n2j7zmw69gf3weqp3wae234p3lyk
     }
 	
 </script></head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode"><header class="u-clearfix u-header u-sticky u-sticky-3c6e u-white u-header" id="sec-9dc0"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://free-york.com" class="u-image u-logo u-image-1" data-image-width="998" data-image-height="293" title="Home">
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode"><header class="u-border-2 u-border-white u-clearfix u-header u-sticky u-sticky-3c6e u-white u-header" id="sec-9dc0"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="Home.html" data-page-id="479507305" class="u-image u-logo u-image-1" data-image-width="998" data-image-height="293" title="Home">
           <img src="images/FYLogo.png" class="u-logo-image u-logo-image-1">
         </a>
         <a href="https://armada-alliance.com/delegation-widget?pool_id=9aa5e16dda2a131764018bbb9546a18fc9695a152e0f5dff2046e7b4&amp;blockfrost_project_id=ipfsp1E1bw95sweZvZceg4k7FpbK8k6c6weS" class="u-border-none u-btn u-btn-round u-button-style u-custom-font u-font-titillium-web u-gradient u-hover-palette-1-light-1 u-none u-radius-10 u-text-body-color u-btn-1" target="_blank"><span class="u-file-icon u-icon u-icon-1"><img src="images/53458482.png" alt=""></span>&nbsp;Stake Now
@@ -116,9 +115,9 @@ borders: top right bottom left !important
             <div class="u-layout-row">
               <div class="u-align-left u-container-style u-layout-cell u-size-33 u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
-                  <h1 class="u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000"> Stake Cardano (₳)<br>on Free York
+                  <h1 class="u-text u-title u-text-1"> Stake Cardano (₳)<br>on Free York
                   </h1>
-                  <p class="u-custom-font u-font-titillium-web u-large-text u-text u-text-custom-color-1 u-text-variant u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000"> Let's make the world a better place thru decentralization by being part of Cardano Community.</p>
+                  <p class="u-large-text u-text u-text-variant u-text-2"> Let's make the world a better place thru decentralization by being part of Cardano Community.</p>
                   <a href="Home.html#carousel_db2d" data-page-id="479507305" class="u-border-none u-btn u-btn-round u-button-style u-custom-font u-font-titillium-web u-gradient u-hover-palette-1-light-1 u-none u-radius-10 u-text-active-black u-text-hover-white u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1000">See More</a>
                 </div>
               </div>
@@ -141,33 +140,33 @@ borders: top right bottom left !important
             <div class="u-active u-align-center u-carousel-item u-container-style u-slide">
               <div class="u-container-layout u-valign-middle u-container-layout-3">
                 <p class="u-custom-font u-font-open-sans u-large-text u-text u-text-custom-color-1 u-text-variant u-text-3"> "STAKE with YORK: Your trusted buddy to RAISE your ADA! Don’t trade it! Just STAKE it!"</p>
-                <h4 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-default u-text-4">[YORK] Free York<br>
-                </h4>
-                <h6 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-5">Stake Pool</h6>
+                <h2 class="u-text u-text-default u-text-4">[YORK] Free York<br>
+                </h2>
+                <p class="u-small-text u-text u-text-variant u-text-5">Stake Pool</p>
               </div>
             </div>
             <div class="u-align-center u-carousel-item u-container-style u-shape-rectangle u-slide">
               <div class="u-container-layout u-valign-middle u-container-layout-4">
                 <p class="u-custom-font u-font-open-sans u-large-text u-text u-text-custom-color-1 u-text-variant u-text-6">"We're Cardano and if you'll permit us, we'd like to change the world"</p>
-                <h4 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-default u-text-7">Charles Hoskinson<br>
-                </h4>
-                <h6 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-8">CEO, Input Output Global</h6>
+                <h2 class="u-text u-text-default u-text-7">Charles Hoskinson<br>
+                </h2>
+                <p class="u-small-text u-text u-text-variant u-text-8">CEO, Input Output Global</p>
               </div>
             </div>
             <div class="u-align-center u-carousel-item u-container-style u-slide">
               <div class="u-container-layout u-valign-middle u-container-layout-5">
                 <p class="u-custom-font u-font-open-sans u-large-text u-text u-text-custom-color-1 u-text-variant u-text-9"> "Cardano will be a sleeping giant until it explodes. In other words - fill your bags"</p>
-                <h4 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-default u-text-10">Sony Joseph<br>
-                </h4>
-                <h6 class="u-align-center u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-11">Cardano Enthusiast</h6>
+                <h2 class="u-text u-text-default u-text-10">Sony Joseph<br>
+                </h2>
+                <p class="u-align-center u-small-text u-text u-text-variant u-text-11">Cardano Enthusiast</p>
               </div>
             </div>
             <div class="u-align-center u-carousel-item u-container-style u-shape-rectangle u-slide">
               <div class="u-container-layout u-valign-middle u-container-layout-6">
                 <p class="u-custom-font u-font-open-sans u-large-text u-text u-text-custom-color-1 u-text-variant u-text-12">"D=0"</p>
-                <h4 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-default u-text-13">People<br>
-                </h4>
-                <h6 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-14">Cardano Hodler</h6>
+                <h2 class="u-text u-text-default u-text-13">People<br>
+                </h2>
+                <p class="u-small-text u-text u-text-variant u-text-14">Cardano Hodler</p>
               </div>
             </div>
           </div>
@@ -275,7 +274,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                       <div class="u-align-left u-container-style u-gradient u-layout-cell u-opacity u-opacity-70 u-radius-50 u-size-60 u-layout-cell-5">
                         <div class="u-container-layout u-container-layout-5">
                           <img class="u-image u-image-contain u-image-default u-image-1" src="images/Devices.png" alt="" data-image-width="1173" data-image-height="690" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
-                          <p class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-5"> What We do</p>
+                          <h1 class="u-text u-title u-text-5"> What We do</h1>
                           <p class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-6"> Free York&nbsp;provides a reliable and high-class performance of Cardano Stake Pool to suppo​rt full decentralization of Cardano ecosystem. We offer staking services with high-performance return and low fees for delegator/investor as unsaturated pool​.</p>
                           <a href="https://armada-alliance.com/delegation-widget?pool_id=9aa5e16dda2a131764018bbb9546a18fc9695a152e0f5dff2046e7b4&amp;blockfrost_project_id=ipfsp1E1bw95sweZvZceg4k7FpbK8k6c6weS" class="u-active-white u-btn u-btn-round u-button-style u-custom-font u-font-titillium-web u-gradient u-hover-white u-none u-radius-10 u-text-active-black u-text-hover-white u-btn-1" target="_blank" data-animation-name="customAnimationIn" data-animation-duration="1000">&nbsp; <span class="u-file-icon u-icon u-icon-1"><img src="images/53458481.png" alt=""></span>&nbsp;Stake Now
                           </a>
@@ -296,44 +295,44 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
         <p class="u-align-left u-custom-font u-font-titillium-web u-text u-text-2"> Giving our commitment to be trusted, reliable and high-performance Stake Pool Operator for Cardano Decentralized-Ecosystem, we hereby provides pool features with  enterprise level stability cloud-based server</p>
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
               <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-1"><img src="images/14.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-3">Single Pool</h5>
+                <h5 class="u-text u-text-3">Single Pool</h5>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2">
               <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-2"><img src="images/15.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-4">MISSION DRIVEN</h5>
+                <h5 class="u-text u-text-4">MISSION DRIVEN</h5>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
               <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-3"><img src="images/16.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-5">50,000 Pledge</h5>
+                <h5 class="u-text u-text-5">50,000 Pledge</h5>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
               <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-4"><img src="images/17.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-6">99.9% Uptime</h5>
+                <h5 class="u-text u-text-6">99.9% Uptime</h5>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-5" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-5">
               <div class="u-container-layout u-similar-container u-container-layout-5"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-5"><img src="images/18.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-7">no lock-up</h5>
+                <h5 class="u-text u-text-7">no lock-up</h5>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-6" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-6">
               <div class="u-container-layout u-similar-container u-container-layout-6"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-6"><img src="images/19.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-8">24/7 monitoring</h5>
+                <h5 class="u-text u-text-8">24/7 monitoring</h5>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-7" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-7">
               <div class="u-container-layout u-similar-container u-container-layout-7"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-7"><img src="images/20.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-9">multi-layer security</h5>
+                <h5 class="u-text u-text-9">multi-layer security</h5>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-8" data-animation-name="customAnimationIn" data-animation-duration="1000">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-8">
               <div class="u-container-layout u-similar-container u-container-layout-8"><span class="u-align-left u-bottom-right-radius-50 u-file-icon u-gradient u-icon u-icon-rounded u-spacing-22 u-text-white u-top-left-radius-50 u-icon-8"><img src="images/21.png" alt=""></span>
-                <h5 class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-10">ddos mitigation</h5>
+                <h5 class="u-text u-text-10">ddos mitigation</h5>
               </div>
             </div>
           </div>
@@ -370,7 +369,8 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                 <div class="u-layout-col">
                   <div class="u-align-left u-container-style u-layout-cell u-radius-50 u-shape-round u-size-60 u-white u-layout-cell-2">
                     <div class="u-container-layout u-container-layout-2">
-                      <h1 class="u-align-center u-text u-title u-text-4">Staking Calculator</h1>
+                      <h6 class="u-align-center u-text u-text-4">Staking <span class="u-text-palette-3-base">Calculator</span>
+                      </h6>
                       <div class="u-clearfix u-custom-html u-custom-html-1">
                         <div>
                           <h2>
@@ -450,20 +450,23 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-section-7" id="sec-5228">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
-          <div>
-            <p id="name"></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-gradient u-section-8" id="sec-83f4">
+    <section class="u-align-center u-clearfix u-gradient u-section-7" id="sec-83f4">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <p class="u-custom-font u-font-titillium-web u-text u-text-custom-color-1 u-text-1">Start Staking and Grow your ADA</p>
         <a href="https://armada-alliance.com/delegation-widget?pool_id=9aa5e16dda2a131764018bbb9546a18fc9695a152e0f5dff2046e7b4&amp;blockfrost_project_id=ipfsp1E1bw95sweZvZceg4k7FpbK8k6c6weS" class="u-active-white u-align-center u-btn u-btn-round u-button-style u-custom-font u-font-titillium-web u-gradient u-hover-white u-none u-radius-10 u-text-active-black u-text-hover-white u-btn-1" target="_blank" data-animation-name="customAnimationIn" data-animation-duration="1000">&nbsp; <span class="u-file-icon u-icon u-icon-1"><img src="images/53458481.png" alt=""></span>&nbsp;Stake Now
         </a>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-8" id="sec-3567">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1">Sample Title</h1>
+        <h2 class="u-subtitle u-text u-text-default u-text-2">Sample Subtitle</h2>
+        <h1 class="u-text u-text-default u-text-3">Sample H1</h1>
+        <h2 class="u-text u-text-default u-text-4">Sample H2</h2>
+        <h3 class="u-text u-text-default u-text-5">Sample H3</h3>
+        <h4 class="u-text u-text-default u-text-6">Sample H4</h4>
+        <h5 class="u-text u-text-default u-text-7">Sample H5</h5>
+        <h6 class="u-text u-text-default u-text-8">Sample H6</h6>
       </div>
     </section>
     
