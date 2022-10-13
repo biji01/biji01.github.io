@@ -37460,7 +37460,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 70px;
+  min-height: 78px;
 }
 
 .u-header .u-image-1 {
@@ -37502,6 +37502,22 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
+
+.u-header .u-image-2 {
+  width: 123px;
+  height: 36px;
+  margin: -213px auto 0 28px;
+}
+
+.u-header .u-btn-2 {
+  background-image: none;
+}
+
+.u-header .u-icon-2 {
+  width: 8px;
+  height: 8px;
+  vertical-align: 0px;
+}
 @media (max-width: 1199px) {
   .u-header .u-btn-1 {
     margin-right: 0;
@@ -37511,6 +37527,24 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-right: 173px;
     margin-bottom: 0;
+  }
+
+  .u-header .u-nav-2 {
+    font-weight: normal;
+    letter-spacing: normal;
+  }
+
+  .u-header .u-image-2 {
+    height: 36px;
+  }
+
+  .u-header .u-btn-2 {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .u-header .u-icon-2 {
+    font-size: 1rem;
   }
 }
 @media (max-width: 991px) {
@@ -37538,10 +37572,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 78px;
-  }
-
   .u-header .u-image-1 {
     width: 115px;
     height: 33px;
@@ -37550,14 +37580,42 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-btn-1 {
     font-size: 1rem;
-    margin-top: -32px;
+    margin-top: -37px;
     margin-right: 38px;
-    padding: 1px 8px 1px 6px;
+    padding: 5px 16px 6px 14px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -27px;
-    margin-bottom: 25px;
+    margin-top: -33px;
+    margin-right: 0;
+    margin-bottom: 26px;
+  }
+
+  .u-header .u-nav-2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    width: 120px;
+    height: 148px;
+    margin: 58px auto 0 40px;
+  }
+
+  .u-header .u-image-2 {
+    width: 115px;
+    height: 33px;
+    margin-top: -231px;
+    margin-left: 20px;
+  }
+
+  .u-header .u-btn-2 {
+    border-style: none;
+    font-weight: 600;
+    margin: 248px auto 0 40px;
+    padding: 10px 14px 11px 13px;
+  }
+
+  .u-header .u-icon-2 {
+    font-size: 1.2667em;
   }
 }
  .u-footer {
