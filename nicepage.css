@@ -37477,8 +37477,9 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-btn-1 {
   border-style: none;
   font-size: 1.125rem;
-  background-image: none;
   font-weight: 600;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: -42px 0 0 auto;
   padding: 3px 17px 4px;
 }
@@ -37611,12 +37612,35 @@ a.u-link.u-text-hover-grey-90:hover {
     font-size: 1.2667em;
   }
 }
+.u-header .u-btn-1, .u-header .u-btn-1:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position
+}
+.u-header .u-btn-1.u-btn-1.u-btn-1:hover {
+    transform: translateX(0px) translateY(-5px) scale(1) !important;
+    box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+    text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important
+}
+.u-header .u-btn-1.u-btn-1.u-btn-1:hover:before {
+    background-color: transparent !important
+}
+.u-header .u-btn-1.u-btn-1.u-btn-1.hover {
+    transform: translateX(0px) translateY(-5px) scale(1) !important;
+    box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+    text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important
+}
+.u-header .u-container-layout:hover .u-btn-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-header .u-btn-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} 
+
  .u-footer {
   background-image: none;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 262px;
+  min-height: 235px;
 }
 
 .u-footer .u-image-1 {
@@ -37671,7 +37695,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 530px;
   font-size: 1.125rem;
   font-weight: 300;
-  margin: 14px auto 41px;
+  margin: 14px auto 28px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-social-icons-1 {

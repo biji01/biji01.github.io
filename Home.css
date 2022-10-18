@@ -35,8 +35,9 @@
 .u-section-1 .u-btn-1 {
   border-style: none;
   font-size: 1.125rem;
-  background-image: none;
   font-weight: 700;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 31px 406px 0 0;
   padding: 7px 45px 9px 43px;
 }
@@ -52,6 +53,8 @@
 .u-section-1 .u-image-1 {
   width: 324px;
   height: 336px;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 0 auto;
 }
 
@@ -375,6 +378,62 @@
     font-size: 1rem;
     width: auto;
   }
+}
+
+.u-section-1 .u-btn-1,
+.u-section-1 .u-btn-1:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-1 .u-btn-1.u-btn-1.u-btn-1:hover {
+  transform: scale(1) translateX(0px) translateY(-5px) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+}
+
+.u-section-1 .u-btn-1.u-btn-1.u-btn-1:hover:before {
+  background-color: transparent !important;
+}
+
+.u-section-1 .u-btn-1.u-btn-1.u-btn-1.hover {
+  transform: scale(1) translateX(0px) translateY(-5px) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-1 .u-image-1,
+.u-section-1 .u-image-1:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-1 .u-image-1.u-image-1.u-image-1:hover {
+  transform: translateX(0px) translateY(-10px) scale(1) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  border-radius: 10px !important;
+}
+
+.u-section-1 .u-image-1.u-image-1.u-image-1.hover {
+  transform: translateX(0px) translateY(-10px) scale(1) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  border-radius: 10px !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-image-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-image-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-2 {
   background-image: linear-gradient(white, white);
 }
@@ -500,7 +559,6 @@
 }
 
 .u-section-2 .u-btn-1 {
-  background-image: none;
   border-style: none;
   font-weight: 700;
   font-size: 1.125rem;
@@ -511,6 +569,8 @@
   --animation-custom_in-scale: 1;
   letter-spacing: normal;
   text-transform: none;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 43px auto 0 10px;
   padding: 5px 24px 6px;
 }
@@ -851,6 +911,35 @@
 .u-section-2 .u-layout-cell-5.u-layout-cell-5.u-layout-cell-5.hover {
   box-shadow: 2px 2px 20px 0 rgba(192,192,192,1) !important;
   text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+}
+
+.u-section-2 .u-btn-1,
+.u-section-2 .u-btn-1:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-2 .u-btn-1.u-btn-1.u-btn-1:hover {
+  transform: translateX(0px) translateY(-5px) scale(1) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+}
+
+.u-section-2 .u-btn-1.u-btn-1.u-btn-1:hover:before {
+  background-color: transparent !important;
+}
+
+.u-section-2 .u-btn-1.u-btn-1.u-btn-1.hover {
+  transform: translateX(0px) translateY(-5px) scale(1) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+}
+
+.u-section-2 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-2 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }.u-section-3 .u-sheet-1 {
   min-height: 682px;
 }
@@ -2173,7 +2262,6 @@
 }
 
 .u-section-7 .u-btn-1 {
-  background-image: linear-gradient(#f1c50e, #f1c50e);
   border-style: none;
   font-weight: 700;
   font-size: 1.125rem;
@@ -2184,6 +2272,9 @@
   --animation-custom_in-scale: 1;
   letter-spacing: normal;
   text-transform: none;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  background-image: none;
   margin: 40px auto 60px;
   padding: 5px 24px 6px;
 }
@@ -2210,6 +2301,35 @@
     margin-top: 20px;
     margin-bottom: 40px;
   }
+}
+
+.u-section-7 .u-btn-1,
+.u-section-7 .u-btn-1:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-7 .u-btn-1.u-btn-1.u-btn-1:hover {
+  transform: translateX(0px) translateY(-5px) scale(1) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+}
+
+.u-section-7 .u-btn-1.u-btn-1.u-btn-1:hover:before {
+  background-color: transparent !important;
+}
+
+.u-section-7 .u-btn-1.u-btn-1.u-btn-1.hover {
+  transform: translateX(0px) translateY(-5px) scale(1) !important;
+  box-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+  text-shadow: undefined undefined undefined rgba(var(--undefined-r),var(--undefined-g),var(--undefined-b),0) !important;
+}
+
+.u-section-7 .u-container-layout:hover .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-7 .u-btn-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }input[type=text], select, textarea {
   width: 100%;
   padding: 6px;

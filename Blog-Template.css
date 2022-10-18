@@ -67,3 +67,9 @@
     padding-right: 10px;
   }
 }
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    height: 281px;
+  }
+}
