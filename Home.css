@@ -25,10 +25,6 @@
 }
 
 .u-section-1 .u-text-2 {
-  letter-spacing: normal;
-  font-weight: 300;
-  line-height: 2.1875;
-  font-size: 1.25rem;
   margin: 20px 0 0;
 }
 
@@ -191,11 +187,14 @@
   }
 
   .u-section-1 .u-text-2 {
+    letter-spacing: normal;
+    font-weight: 300;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
+    line-height: 2.1875;
   }
 
   .u-section-1 .u-btn-1 {
@@ -332,7 +331,6 @@
 
   .u-section-1 .u-text-2 {
     line-height: 1.6;
-    font-size: 1.125rem;
     width: auto;
     margin-left: 2px;
     margin-right: 2px;
