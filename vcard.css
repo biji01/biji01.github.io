@@ -39,8 +39,8 @@
   white-space: nowrap;
   height: 48px;
   min-height: 16px;
-  width: 184px;
-  min-width: 88px;
+  width: 252px;
+  min-width: 124px;
   margin: 36px auto 0;
 }
 
@@ -50,11 +50,17 @@
 
 .u-section-1 .u-icon-2 {
   height: 100%;
-  color: rgb(3, 155, 229) !important;
+  color: rgb(85, 172, 238) !important;
 }
 
 .u-section-1 .u-icon-3 {
   height: 100%;
+  color: rgb(85, 172, 238) !important;
+}
+
+.u-section-1 .u-icon-4 {
+  height: 100%;
+  color: rgb(85, 172, 238) !important;
 }
 
 .u-section-1 .u-btn-1 {
@@ -74,7 +80,7 @@
   padding: 5px 24px 6px;
 }
 
-.u-section-1 .u-icon-4 {
+.u-section-1 .u-icon-5 {
   vertical-align: 0px;
   font-size: 1.1667em;
 }
